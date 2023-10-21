@@ -1,0 +1,116 @@
+header,footer{
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937; 
+     color: #f9faf8;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0 200px;
+}
+
+header .right{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+h1{
+    width:200px;
+    margin: 0;
+    padding: 0;
+}
+.First-Container button{
+    border: none;
+    color: white;
+    background-color: #3882f6;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:5px;
+    font-weight: bolder;
+    width: 100px;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+
+.First-Container{
+    display:flex;
+    /* border: 5px solid red; */
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #1f2937; 
+    color: #f9faf8;
+    padding: 50px 200px;
+    
+}
+
+.First-Container .left{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Second-Container{
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+.Second-Container .item-container{
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin: 0px 200px;
+
+}
+
+.Second-Container p{
+    width:200px;
+}
+
+
+.Third-Container{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0 200px;
+}
+
+.Forth-Container{
+    display: flex;
+    color: white;
+    background-color: #3882f6;
+    padding: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Forth-Container button{
+    display: inline-block;
+    /* border: 2px; */
+    border-color: #f9faf8;
+    color: white;
+    background-color: #3882f6;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:10px;
+    border-style: solid;
+    font-weight: bolder;
+    width: 100px;
+    text-align:center;
+}
+
